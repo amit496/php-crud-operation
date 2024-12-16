@@ -48,7 +48,7 @@
                                                     <td><?php echo $row_data['name']?></td>
                                                     <td><?php echo $row_data['email']?></td>
                                                     <td><?php echo $row_data['contact']?></td>
-                                                    <td><img src="../profiles/<?php if(isset($row_data['profile'])){echo $row_data['profile']; }?>" alt="profile" width='60' height='60'></td>
+                                                    <td><img class="img-thumbnail" src="../profiles/<?php if(isset($row_data['profile'])){echo $row_data['profile']; }?>" alt="profile" width='100' height='100'></td>
                                                     <td>
                                                         <a href="../edit/edit.php?id=<?php echo $row_data['id'];?>" title='Edit'><i class="fa-solid fa-pen-to-square"></i></a>
                                                         <a href="../delete/delete.php?id=<?php echo $row_data['id'];?>" title='Delete'><i class="fa-solid fa-trash"></i></a>
