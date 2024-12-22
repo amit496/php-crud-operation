@@ -1,4 +1,5 @@
-<?php
+              
+    <?php
         require('../connection/conn.php');
         $get_id =  $_GET['id'];
         $select_data_of_user= "SELECT * FROM `simple_table` WHERE id = $get_id";
@@ -71,9 +72,8 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-6"></div>
-                                    <div class="col-md-6">
-                                        <button type="submit" name="update_btn" class="btn bg-dark text-light submit_button"><b>Update</b></button>
+                                    <div class="col-md-12">
+                                        <button type="submit" name="update_btn" class="btn bg-dark float-right text-light submit_button"><b>Update</b></button>
                                     </div>
                                 </div>
                             </form>
@@ -84,5 +84,4 @@
         </div>
     </body>
     </html>
-
-
+               
